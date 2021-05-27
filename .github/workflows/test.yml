@@ -31,9 +31,7 @@ jobs:
           tag_name: test
           release_name: Ver.b1.0
           body: |
-            Release note here
-          draft: true
-          prerelease: false
+            This is beta.
       - name: Upload Release Artifact
         id: upload_artifact
         uses: actions/upload-release-asset@v1
