@@ -1,0 +1,7 @@
+jobs:
+  convert:
+    steps:
+    - uses: actions/checkout@v1
+    - name: Zip output
+      run: |
+        zip release *.*
